@@ -4,7 +4,8 @@ A single-page personal portfolio website to showcase my skills, projects and con
 Built with **HTML**, **CSS**, **Bootstrap 5** and a little **JavaScript**.
 
 🔗 **Live Demo:**  
-https://aman-choudhary-99.github.io/Portfolio/
+
+[View Live](https://aman-choudhary-99.github.io/Portfolio/)
 
 ---
 
