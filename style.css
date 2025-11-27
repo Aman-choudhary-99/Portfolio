@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #111827;
+    background: radial-gradient(
+    circle at top left,
+    #e0f2fe 0%,
+    #c7d2fe 30%,
+    #f5d0fe 65%,
+    #fee2e2 100%
+  );
+}
+
+/* General spacing */
+.section-padding {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: #2563eb;
+  border-radius: 999px;
+  margin-top: 6px;
+}
+
+/* Hero section */
+.hero-section {
+  padding: 72px 0 60px;
+  background: radial-gradient(
+    circle at top left,
+    #e0f2fe 0%,
+    #c7d2fe 30%,
+    #f5d0fe 65%,
+    #fee2e2 100%
+  );
+  color: #0b1120;
+}
+
+.hero-tag {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 0.98rem;
+  max-width: 600px;
+}
+
+/* White card on hero right side */
+.hero-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+  font-size: 0.9rem;
+}
+
+/* About section */
+.about-list li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* Skills */
+.skill-badges .badge {
+  margin: 2px 4px 4px 0;
+  font-weight: 500;
+  border: 2px solid currentColor;
+}
+.skill-badges .badge:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* Contact */
+.contact-list li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.contact-list a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* Cards */
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 0.86rem;
+}
+
+/* Small form info */
+.contact-form .form-label {
+  font-size: 0.9rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 600; 
+}
+
+/* Make hero nicer on small screens */
+@media (max-width: 767.98px) {
+  .hero-section {
+    padding-top: 56px;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+}   
+
+/* ==== Section backgrounds with gradients ==== */
+
+/* About – light blue/purple */
+#about {
+  background: radial-gradient(
+    circle at top right,
+    #eef2ff 0%,
+    #e0f2fe 40%,
+    #fdf2ff 100%
+  );
+}
+
+/* Skills – thoda green + blue mix */
+#skills {
+  background: radial-gradient(
+    circle at bottom left,
+    #dcfce7 0%,   /* light green */
+    #e0f2fe 40%,  /* soft blue */
+    #fdf2ff 100%  /* very light purple */
+  );
+}
+
+/* Projects – hero jaisa strong gradient */
+#projects {
+  background: radial-gradient(
+    circle at top left,
+    #e0f2fe 0%,
+    #c7d2fe 30%,
+    #f5d0fe 65%,
+    #fee2e2 100%
+  );
+}
+
+/* Contact – pink + yellow tone */
+#contact {
+  background: radial-gradient(
+    circle at bottom right,
+    #fee2e2 0%,  /* soft pink */
+    #fef9c3 40%, /* light yellow */
+    #ecfeff 100% /* very light aqua */
+  );
+}
+
+::-webkit-scrollbar{
+    width:5px;
+    background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+    background:blue;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: 234C6A;
+}
