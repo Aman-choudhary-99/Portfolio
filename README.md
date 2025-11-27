@@ -4,8 +4,7 @@ A single-page personal portfolio website to showcase my skills, projects and con
 Built with **HTML**, **CSS**, **Bootstrap 5** and a little **JavaScript**.
 
 🔗 **Live Demo:**  
-`https://aman-choudhary-99.github.io/portfolio/`  
-_(Update this link if your repo name is different.)_
+https://aman-choudhary-99.github.io/Portfolio/
 
 ---
 
@@ -52,7 +51,7 @@ _(Update this link if your repo name is different.)_
 ### 4. Projects
 Cards for my practice/front-end projects, including:
 
-- **Personal Portfolio Website** – this site
+- **Personal Portfolio Website** – this site  
 - **Luxury Fashion Landing Page** – HTML, CSS, Bootstrap  
   Demo: https://aman-choudhary-99.github.io/-Luxury-Fashion-Landing-Page/
 - **To-Do List Web App** – HTML, CSS, JavaScript  
@@ -82,7 +81,7 @@ Cards for my practice/front-end projects, including:
 Download / clone the project and open `index.html` in your browser:
 
 ```text
-portfolio/
+Portfolio/
 ├── index.html
 ├── style.css
 └── script.js
